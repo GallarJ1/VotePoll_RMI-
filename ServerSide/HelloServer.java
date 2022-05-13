@@ -5,12 +5,6 @@ import java.rmi.registry.LocateRegistry;
 import java.net.*;
 import java.io.*;
 
-/**
- * This class represents the object server for a distributed
- * object of class Hello, which implements the remote interface
- * HelloInterface.
- * @author M. L. Liu
- */
 
 public class HelloServer  {
    public static void main(String args[]) {
